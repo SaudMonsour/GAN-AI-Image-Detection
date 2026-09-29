@@ -1,0 +1,28 @@
+{
+  "Raw GAN discriminator": {
+    "roc_auc_95_percentile_interval": [
+      0.56972271875,
+      0.606265275
+    ]
+  },
+  "CNN from scratch": {
+    "roc_auc_95_percentile_interval": [
+      0.9361352375,
+      0.94938983125
+    ]
+  },
+  "GAN-initialized detector": {
+    "roc_auc_95_percentile_interval": [
+      0.93027748125,
+      0.94502635625
+    ]
+  },
+  "gan_initialized_minus_scratch": {
+    "point": -0.005191250000000092,
+    "paired_95_percentile_interval": [
+      -0.008840303124999874,
+      -0.0017680062500000052
+    ]
+  },
+  "method": "500 paired, class-stratified bootstrap resamples; seed 4242; conditional on these fixed trained checkpoints; post-training uncertainty analysis"
+}

@@ -1,0 +1,79 @@
+{
+  "selected_model": "CNN from scratch",
+  "selection_metric": "validation ROC-AUC",
+  "test_seen": false,
+  "threshold": 0.5,
+  "models": {
+    "Raw GAN discriminator": {
+      "parameters": 167649,
+      "selected_epoch": 10,
+      "validation": {
+        "roc_auc": 0.599999,
+        "average_precision": 0.5870377534912921,
+        "macro_f1": 0.359104622262517,
+        "accuracy": 0.508,
+        "false_positive_rate": 0.01,
+        "fake_recall": 0.026,
+        "log_loss": 5.2081806774314074,
+        "confusion_matrix": [
+          [
+            990,
+            10
+          ],
+          [
+            974,
+            26
+          ]
+        ]
+      }
+    },
+    "CNN from scratch": {
+      "parameters": 167649,
+      "selected_epoch": 6,
+      "supervised_seconds": 44.82275220400015,
+      "validation": {
+        "roc_auc": 0.9396930000000001,
+        "average_precision": 0.9390533910816721,
+        "macro_f1": 0.8634923214430812,
+        "accuracy": 0.8635,
+        "false_positive_rate": 0.144,
+        "fake_recall": 0.871,
+        "log_loss": 0.31589916408976504,
+        "confusion_matrix": [
+          [
+            856,
+            144
+          ],
+          [
+            129,
+            871
+          ]
+        ]
+      }
+    },
+    "GAN-initialized detector": {
+      "parameters": 167649,
+      "selected_epoch": 6,
+      "supervised_seconds": 38.17343848699966,
+      "validation": {
+        "roc_auc": 0.936154,
+        "average_precision": 0.9366117741824489,
+        "macro_f1": 0.8369300983754413,
+        "accuracy": 0.838,
+        "false_positive_rate": 0.243,
+        "fake_recall": 0.919,
+        "log_loss": 0.3603030656023117,
+        "confusion_matrix": [
+          [
+            757,
+            243
+          ],
+          [
+            81,
+            919
+          ]
+        ]
+      }
+    }
+  }
+}

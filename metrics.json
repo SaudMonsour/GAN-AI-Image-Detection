@@ -1,0 +1,336 @@
+{
+  "selected_model": "CNN from scratch",
+  "positive_class": "AI generated",
+  "primary_condition": "CIFAKE holdout",
+  "gan_training_seconds": 102.44989044700014,
+  "models": {
+    "Raw GAN discriminator": {
+      "parameters": 167649,
+      "selected_epoch": 10,
+      "validation": {
+        "roc_auc": 0.599999,
+        "average_precision": 0.5870377534912921,
+        "macro_f1": 0.359104622262517,
+        "accuracy": 0.508,
+        "false_positive_rate": 0.01,
+        "fake_recall": 0.026,
+        "log_loss": 5.2081806774314074,
+        "confusion_matrix": [
+          [
+            990,
+            10
+          ],
+          [
+            974,
+            26
+          ]
+        ]
+      },
+      "test": {
+        "CIFAKE holdout": {
+          "roc_auc": 0.58896275,
+          "average_precision": 0.5775972599936329,
+          "macro_f1": 0.3563757017665729,
+          "accuracy": 0.50575,
+          "false_positive_rate": 0.0125,
+          "fake_recall": 0.024,
+          "log_loss": 5.280280612725326,
+          "confusion_matrix": [
+            [
+              1975,
+              25
+            ],
+            [
+              1952,
+              48
+            ]
+          ]
+        },
+        "JPEG quality 50": {
+          "roc_auc": 0.58581675,
+          "average_precision": 0.567103972566221,
+          "macro_f1": 0.35803007497985345,
+          "accuracy": 0.50425,
+          "false_positive_rate": 0.0185,
+          "fake_recall": 0.027,
+          "log_loss": 5.182767687044811,
+          "confusion_matrix": [
+            [
+              1963,
+              37
+            ],
+            [
+              1946,
+              54
+            ]
+          ]
+        },
+        "Own GAN holdout": {
+          "roc_auc": 0.9999965000000001,
+          "average_precision": 0.9999964973597751,
+          "macro_f1": 0.9937497558498378,
+          "accuracy": 0.99375,
+          "false_positive_rate": 0.0125,
+          "fake_recall": 1.0,
+          "log_loss": 0.03571852702702803,
+          "confusion_matrix": [
+            [
+              1975,
+              25
+            ],
+            [
+              0,
+              2000
+            ]
+          ]
+        }
+      }
+    },
+    "CNN from scratch": {
+      "parameters": 167649,
+      "selected_epoch": 6,
+      "supervised_seconds": 44.82275220400015,
+      "validation": {
+        "roc_auc": 0.9396930000000001,
+        "average_precision": 0.9390533910816721,
+        "macro_f1": 0.8634923214430812,
+        "accuracy": 0.8635,
+        "false_positive_rate": 0.144,
+        "fake_recall": 0.871,
+        "log_loss": 0.31589916408976504,
+        "confusion_matrix": [
+          [
+            856,
+            144
+          ],
+          [
+            129,
+            871
+          ]
+        ]
+      },
+      "test": {
+        "CIFAKE holdout": {
+          "roc_auc": 0.94329525,
+          "average_precision": 0.9411901609793358,
+          "macro_f1": 0.8709997097493469,
+          "accuracy": 0.871,
+          "false_positive_rate": 0.1305,
+          "fake_recall": 0.8725,
+          "log_loss": 0.30628882244388916,
+          "confusion_matrix": [
+            [
+              1739,
+              261
+            ],
+            [
+              255,
+              1745
+            ]
+          ]
+        },
+        "JPEG quality 50": {
+          "roc_auc": 0.9323072499999999,
+          "average_precision": 0.9293933865634372,
+          "macro_f1": 0.8360585452311263,
+          "accuracy": 0.83725,
+          "false_positive_rate": 0.248,
+          "fake_recall": 0.9225,
+          "log_loss": 0.3666081445745732,
+          "confusion_matrix": [
+            [
+              1504,
+              496
+            ],
+            [
+              155,
+              1845
+            ]
+          ]
+        },
+        "Own GAN holdout": {
+          "roc_auc": 0.91743975,
+          "average_precision": 0.8539118795457413,
+          "macro_f1": 0.8489365155706685,
+          "accuracy": 0.849,
+          "false_positive_rate": 0.1305,
+          "fake_recall": 0.8285,
+          "log_loss": 0.3731035475235674,
+          "confusion_matrix": [
+            [
+              1739,
+              261
+            ],
+            [
+              343,
+              1657
+            ]
+          ]
+        }
+      }
+    },
+    "GAN-initialized detector": {
+      "parameters": 167649,
+      "selected_epoch": 6,
+      "supervised_seconds": 38.17343848699966,
+      "validation": {
+        "roc_auc": 0.936154,
+        "average_precision": 0.9366117741824489,
+        "macro_f1": 0.8369300983754413,
+        "accuracy": 0.838,
+        "false_positive_rate": 0.243,
+        "fake_recall": 0.919,
+        "log_loss": 0.3603030656023117,
+        "confusion_matrix": [
+          [
+            757,
+            243
+          ],
+          [
+            81,
+            919
+          ]
+        ]
+      },
+      "test": {
+        "CIFAKE holdout": {
+          "roc_auc": 0.9381039999999999,
+          "average_precision": 0.9374260719700334,
+          "macro_f1": 0.8468945135252293,
+          "accuracy": 0.84775,
+          "false_positive_rate": 0.227,
+          "fake_recall": 0.9225,
+          "log_loss": 0.35158618503472483,
+          "confusion_matrix": [
+            [
+              1546,
+              454
+            ],
+            [
+              155,
+              1845
+            ]
+          ]
+        },
+        "JPEG quality 50": {
+          "roc_auc": 0.919332625,
+          "average_precision": 0.9146280314758103,
+          "macro_f1": 0.7725901746004982,
+          "accuracy": 0.7805,
+          "false_positive_rate": 0.406,
+          "fake_recall": 0.967,
+          "log_loss": 0.5434312676500611,
+          "confusion_matrix": [
+            [
+              1188,
+              812
+            ],
+            [
+              66,
+              1934
+            ]
+          ]
+        },
+        "Own GAN holdout": {
+          "roc_auc": 0.9646655,
+          "average_precision": 0.9284593197093108,
+          "macro_f1": 0.884278888132819,
+          "accuracy": 0.88575,
+          "false_positive_rate": 0.227,
+          "fake_recall": 0.9985,
+          "log_loss": 0.3041110657641465,
+          "confusion_matrix": [
+            [
+              1546,
+              454
+            ],
+            [
+              3,
+              1997
+            ]
+          ]
+        }
+      }
+    },
+    "Always-real baseline": {
+      "validation": {
+        "roc_auc": 0.5,
+        "average_precision": 0.5,
+        "macro_f1": 0.3333333333333333,
+        "accuracy": 0.5,
+        "false_positive_rate": 0.0,
+        "fake_recall": 0.0,
+        "log_loss": 7.971192636044016,
+        "confusion_matrix": [
+          [
+            1000,
+            0
+          ],
+          [
+            1000,
+            0
+          ]
+        ]
+      },
+      "test": {
+        "CIFAKE holdout": {
+          "roc_auc": 0.5,
+          "average_precision": 0.5,
+          "macro_f1": 0.3333333333333333,
+          "accuracy": 0.5,
+          "false_positive_rate": 0.0,
+          "fake_recall": 0.0,
+          "log_loss": 7.971192636044016,
+          "confusion_matrix": [
+            [
+              2000,
+              0
+            ],
+            [
+              2000,
+              0
+            ]
+          ]
+        },
+        "JPEG quality 50": {
+          "roc_auc": 0.5,
+          "average_precision": 0.5,
+          "macro_f1": 0.3333333333333333,
+          "accuracy": 0.5,
+          "false_positive_rate": 0.0,
+          "fake_recall": 0.0,
+          "log_loss": 7.971192636044016,
+          "confusion_matrix": [
+            [
+              2000,
+              0
+            ],
+            [
+              2000,
+              0
+            ]
+          ]
+        },
+        "Own GAN holdout": {
+          "roc_auc": 0.5,
+          "average_precision": 0.5,
+          "macro_f1": 0.3333333333333333,
+          "accuracy": 0.5,
+          "false_positive_rate": 0.0,
+          "fake_recall": 0.0,
+          "log_loss": 7.971192636044016,
+          "confusion_matrix": [
+            [
+              2000,
+              0
+            ],
+            [
+              2000,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "gan_epochs": 10,
+  "detector_epochs": 6,
+  "batch_size": 128,
+  "latent_dim": 64,
+  "gan_learning_rate": 0.0002,
+  "detector_learning_rate": 0.001,
+  "gan_beta_1": 0.5,
+  "gradient_clip_norm": 1.0,
+  "decision_threshold": 0.5,
+  "primary_metric": "roc_auc",
+  "checkpoint_selection": "Highest validation ROC-AUC; fixed final epoch for raw GAN",
+  "gan_test_latent_seed": 20260928,
+  "gan_test_images": 2000,
+  "stress_jpeg_quality": 50,
+  "gan_test_jpeg_quality": 95
+}

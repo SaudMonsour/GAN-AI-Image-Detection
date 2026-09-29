@@ -1,0 +1,44 @@
+{
+  "prediction_rows_recalculated": 42000,
+  "full_checkpoint_reload_max_errors": {
+    "Raw GAN discriminator": 0.0,
+    "CNN from scratch": 0.0,
+    "GAN-initialized detector": 0.0
+  },
+  "generator_replay": {
+    "exact_image_matches": 1989,
+    "total_images": 2000,
+    "max_channel_difference": 5,
+    "mean_absolute_channel_difference": 0.00025634765625,
+    "note": "Regeneration is not byte-exact for every image. Original generated test pixels are preserved for exact evaluation; reported training/test scores are unchanged."
+  },
+  "generated_snapshot_full_contents_verified": true,
+  "generated_snapshot_pixel_sha256": "51e81fc52b7009fc0db8698c6baa08beede0535070af1291506f8041478c8f03",
+  "unique_generated_test_pixel_hashes": 2000,
+  "generated_overlap_with_source_subset": 0,
+  "source_manifest_decompressed_rows_checked": 18000,
+  "source_subset_unique_pixel_hashes": 18000,
+  "source_archive_hash_verified": true,
+  "weights": {
+    "gan_discriminator.weights.npz": {
+      "arrays": 8,
+      "stored_values": 167649,
+      "finite": true
+    },
+    "scratch_detector.weights.npz": {
+      "arrays": 8,
+      "stored_values": 167649,
+      "finite": true
+    },
+    "gan_initialized_detector.weights.npz": {
+      "arrays": 8,
+      "stored_values": 167649,
+      "finite": true
+    },
+    "generator.weights.npz": {
+      "arrays": 17,
+      "stored_values": 305027,
+      "finite": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "suggested_repo_name": "tensorflow-gan-image-detection",
+  "about": "Test GAN discriminator transfer to AI-image detection with TensorFlow, CIFAKE, verified checkpoints, compression stress tests, and error analysis.",
+  "topics": [
+    "tensorflow",
+    "gan",
+    "dcgan",
+    "ai-image-detection",
+    "cifake",
+    "deep-learning",
+    "computer-vision"
+  ]
+}

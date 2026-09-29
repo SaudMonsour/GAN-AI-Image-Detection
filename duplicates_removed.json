@@ -1,0 +1,146 @@
+[
+  {
+    "path": "DATASET/train/FAKE/4625 (7).jpg",
+    "duplicate_of": "DATASET/train/FAKE/5810 (7).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/1784 (7).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2245 (7).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/3970 (6).jpg",
+    "duplicate_of": "DATASET/train/FAKE/5976 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/5718 (3).jpg",
+    "duplicate_of": "DATASET/train/FAKE/3230 (3).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/1664 (7).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2447 (7).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/5043 (6).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2917 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/1727 (6).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2634 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/5652 (7).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2407 (7).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/4337 (7).jpg",
+    "duplicate_of": "DATASET/train/FAKE/5929 (7).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/4445 (6).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2380 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/5495 (6).jpg",
+    "duplicate_of": "DATASET/train/FAKE/1413 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/2711 (7).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2627 (7).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/train/FAKE/4148 (3).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2155 (3).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/939 (3).jpg",
+    "duplicate_of": "DATASET/train/FAKE/5497 (3).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/11 (3).jpg",
+    "duplicate_of": "DATASET/train/FAKE/4541 (3).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/292 (6).jpg",
+    "duplicate_of": "DATASET/train/FAKE/1921 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/62 (6).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2275 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/499 (6).jpg",
+    "duplicate_of": "DATASET/test/FAKE/131 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/598 (6).jpg",
+    "duplicate_of": "DATASET/train/FAKE/5254 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/47 (3).jpg",
+    "duplicate_of": "DATASET/test/FAKE/812 (3).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/871 (6).jpg",
+    "duplicate_of": "DATASET/test/FAKE/264 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/176 (6).jpg",
+    "duplicate_of": "DATASET/test/FAKE/539 (6).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/434 (7).jpg",
+    "duplicate_of": "DATASET/train/FAKE/2173 (7).jpg",
+    "label": 1,
+    "previous_label": 1
+  },
+  {
+    "path": "DATASET/test/FAKE/206 (3).jpg",
+    "duplicate_of": "DATASET/train/FAKE/3883 (3).jpg",
+    "label": 1,
+    "previous_label": 1
+  }
+]

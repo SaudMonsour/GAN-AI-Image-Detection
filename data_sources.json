@@ -1,0 +1,39 @@
+{
+  "source_url": "https://codeload.github.com/jordan-bird/CIFAKE-Real-and-AI-Generated-Synthetic-Images/tar.gz/e112a942abaecd02b6b1f6f646c807d56be8fb62",
+  "source_repository": "jordan-bird/CIFAKE-Real-and-AI-Generated-Synthetic-Images",
+  "source_commit": "e112a942abaecd02b6b1f6f646c807d56be8fb62",
+  "archive_sha256": "77c0a3d4fd102829e777bc84588204968829cb1507c35ff90e9126faf8d3c3df",
+  "archive_bytes": 39409550,
+  "source_counts": {
+    "train/REAL": 50000,
+    "train/FAKE": 50000,
+    "test/REAL": 10000,
+    "test/FAKE": 10000
+  },
+  "subset_counts": {
+    "train": {
+      "real": 6000,
+      "fake": 6000
+    },
+    "validation": {
+      "real": 1000,
+      "fake": 1000
+    },
+    "test": {
+      "real": 2000,
+      "fake": 2000
+    }
+  },
+  "decoded_shape": [
+    32,
+    32,
+    3
+  ],
+  "selection": "Sort SHA-256 of 42:path within source split/class; retain first unique pixels; 6000 training + 1000 validation per training class; 2000 test per test class",
+  "exact_duplicate_candidates_removed": 24,
+  "cross_label_duplicate_candidates": 0,
+  "unique_pixel_hashes": 18000,
+  "manifest_rows_verified_against_pinned_archive": 18000,
+  "manifest_uncompressed_sha256": "f6457ddb8df649c15c36a2957917155248f4c8f1d21881fb34324e5bf413de1f",
+  "dataset_snapshot_stored": false
+}

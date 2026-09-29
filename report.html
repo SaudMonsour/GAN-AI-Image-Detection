@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>GAN image-detection study</title><style>body{font:17px system-ui;max-width:1100px;margin:40px auto;padding:20px}img{max-width:100%}td,th{padding:10px;text-align:left}figure{margin:24px 0}</style><h1>Can a GAN Discriminator Detect AI-Generated Images?</h1><p>A TensorFlow study of transfer from a small DCGAN to CIFAKE diffusion-image detection.</p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>roc_auc</th>
+      <th>macro_f1</th>
+      <th>accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Raw GAN discriminator</td>
+      <td>0.5890</td>
+      <td>0.3564</td>
+      <td>0.5058</td>
+    </tr>
+    <tr>
+      <td>CNN from scratch</td>
+      <td>0.9433</td>
+      <td>0.8710</td>
+      <td>0.8710</td>
+    </tr>
+    <tr>
+      <td>GAN-initialized detector</td>
+      <td>0.9381</td>
+      <td>0.8469</td>
+      <td>0.8478</td>
+    </tr>
+    <tr>
+      <td>Always-real baseline</td>
+      <td>0.5000</td>
+      <td>0.3333</td>
+      <td>0.5000</td>
+    </tr>
+  </tbody>
+</table><p>GAN pretraining did not improve the primary test result in this one-seed study. Generalization beyond this small benchmark is unproven. See README.md for the full protocol and limitations.</p><figure><img src="figures/confusion-matrix.png" alt="confusion-matrix"></figure><figure><img src="figures/dataset-examples.png" alt="dataset-examples"></figure><figure><img src="figures/error-examples.png" alt="error-examples"></figure><figure><img src="figures/gan-progress.png" alt="gan-progress"></figure><figure><img src="figures/learning-curves.png" alt="learning-curves"></figure><figure><img src="figures/model-comparison.png" alt="model-comparison"></figure><figure><img src="figures/robustness.png" alt="robustness"></figure><figure><img src="figures/roc-curve.png" alt="roc-curve"></figure></html>
